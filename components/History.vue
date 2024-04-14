@@ -7,9 +7,6 @@
       <template #end>present</template>
       <template #description>
         <HistoryDescription>
-          Data Lineage, metadata propagation            
-        </HistoryDescription>
-        <HistoryDescription>
           I am currently building a data discovery and lineage tool to catalog all of Block's data assets across various Kafkas brokers, Snowflake, Databricks, etc.
           By exporting assets to S3, ingesting to Elasticsearch, and exposing search via a simple API, I have enabled lighting fast search and cross-platform lineage traversal.
           Cross-platform lineage enables propagation of semantic types and governance metadata from Topic to Data Warehouse to Dashboard.
