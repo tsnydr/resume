@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 dark:bg-gray-900 p-5 relative">
+  <div class="bg-gray-200 dark:bg-gray-800 p-5 relative">
     <section>
       <h1 class="text-4xl font-urbanist font-black">
         Tristan Snyder
