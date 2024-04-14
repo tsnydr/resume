@@ -1,6 +1,6 @@
 <template>
-  <div class="pe-5">
-    <div class="py-2">
+  <div class="py-3">
+    <div>
       <div>
         <h3 class="text-xl font-urbanist font-bold">
           Temple University

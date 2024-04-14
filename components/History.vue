@@ -1,5 +1,5 @@
 <template>
-  <div class="pe-5">
+  <div class="py-3">
     <HistoryItem>
       <template #company>Block, Inc (fka Square)</template>
       <template #title>Tech Lead, Data Governance</template>
@@ -42,7 +42,7 @@
         <HistoryDescription>
           To facilitate migrating from Vertica to Snowflake I built a tool to automatically convert ~90% of SQL from one platform to the other.
           Using the same tool and Liquid to enable dynamic LookML, we were able to have a nearly seemless transition.
-          I presented this work on state at Looker's Join conference in 2018.
+          I presented this work on stage at Looker's Join conference in 2018.
         </HistoryDescription>
       </template>
     </HistoryItem>
