@@ -1,3 +1,7 @@
+<script setup>
+useHead({ title: "Tristan's Resume" })
+</script>
+
 <template>
   <NuxtPage />
 </template>
@@ -15,7 +19,10 @@ body {
     width: 210mm;
     height: 297mm;
   }
-  noPrint {
+  .onlyPrint {
+    display:inline;
+  }
+  .noPrint {
     display:none;
   }
 }

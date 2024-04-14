@@ -1,14 +1,6 @@
 {
   "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
+  "module": "index.ts",
   "dependencies": {
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.11.2",
@@ -19,6 +11,16 @@
     "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/bun": "latest",
     "nuxt-icon": "^0.6.10"
-  }
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "type": "module"
 }

@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   googleFonts: {
-    // Options
     download: true,
     families: {
       "Cutive Mono": true,

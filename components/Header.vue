@@ -11,7 +11,9 @@
           </h2>
         </div>
         <div>
+          
           <h3 class="text-xl font-mono font-thin">
+            <Icon name="mdi:location" class="mb-1" />
             Los Angeles, California
           </h3>
         </div>
