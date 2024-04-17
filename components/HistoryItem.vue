@@ -12,7 +12,7 @@
           </h2>
         </div>
         <div>
-          <h2>
+          <h2 class="whitespace-nowrap">
             <Icon class="mx-1 mb-1" name="ph:calendar-dots-light" />
             <slot name="start"></slot>
             -

@@ -1,5 +1,5 @@
 <template>
-  <div class="m-3 w-full">
+  <div class="m-3 py-2 lg:py-0 w-full">
     <div class="grid grid-cols-2 lg:grid-cols-none">
       <div class="md:width-full">
         <h2>
