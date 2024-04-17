@@ -5,16 +5,16 @@ useHead({ title: "Tristan's Resume" })
 <template>
   <NuxtPage />
 </template>
-/* text-md font-urbanist font-thin italic */
+
 <style lang="postcss">
 body {
   @apply min-h-screen bg-white dark:bg-black dark:text-gray-200;
-  width: 216mm;
+  max-width: 216mm;
   margin: auto;
 }
 
 .card{
-  @apply container dark:bg-gray-500 h-screen m-auto w-full rounded-md shadow-xl
+  @apply container dark:bg-gray-500 m-auto w-full rounded-md shadow-xl
 }
 
 h1 {
@@ -42,6 +42,7 @@ p {
   html, body {
     width: 216mm;
     height: 279mm;
+    @apply bg-white text-black
   }
 
   .card{
@@ -51,6 +52,7 @@ p {
   .onlyPrint {
     display:inline;
   }
+
   .noPrint {
     display:none;
   }

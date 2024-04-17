@@ -1,19 +1,25 @@
 <template>
-  <div class="p-5">
+  <div class="m-3">
     <section>
       <h3>
-        Languages /<br>Frameworks
+        Languages / Frameworks
       </h3>
       <h2>
         <ul>
-          <li>
-            python, flask,
+          <li class="inline-block lg:block pr-1">
+            python
           </li>
-          <li>
-            typescript,
+          <li class="inline-block lg:block pr-1">
+            flask
           </li>
-          <li>
-            vue, nuxt
+          <li class="inline-block lg:block pr-1">
+            typescript
+          </li>
+          <li class="inline-block lg:block pr-1">
+            vue
+          </li>
+          <li class="inline-block lg:block pr-1">
+            nuxt
           </li>
         </ul>
       </h2>

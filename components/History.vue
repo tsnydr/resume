@@ -1,5 +1,5 @@
 <template>
-  <div class="py-3">
+  <div class="m-3">
     <HistoryItem>
       <template #company>Block, Inc (fka Square)</template>
       <template #title>Tech Lead, Data Governance</template>
