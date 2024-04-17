@@ -11,9 +11,9 @@
           By exporting assets to S3, ingesting to Elasticsearch, and exposing search via a simple API, I have enabled lighting fast search and cross-platform lineage traversal.
           Cross-platform lineage enables propagation of semantic types and governance metadata from Topic to Data Warehouse to Dashboard.
         </HistoryDescription>
-      </template>
+        </template>
     </HistoryItem>
-    
+
     <HistoryItem>
       <template #title>Senior Software Engineer</template>
       <template #start>2019</template>
@@ -56,7 +56,7 @@
         <HistoryDescription>
           As the first data hire at this start up in a rapid growth stage, I wore many hats.
           I scaled up Tableau Server across operations teams, and implemented the first ETL orchestation system to maintain high quality reporting during and after the monolith decomposition.
-        </HistoryDescription>        
+        </HistoryDescription>
       </template>
     </HistoryItem>
   </div>

@@ -1,16 +1,16 @@
 <template>
   <div class="p-5">
     <section>
-      <h1 class="text-lg font-urbanist font-black">
-        Languages / Frameworks
-      </h1>
-      <h2 class="text-md font-mono font-thin">
+      <h3>
+        Languages /<br>Frameworks
+      </h3>
+      <h2>
         <ul>
           <li>
-            python, flask
+            python, flask,
           </li>
           <li>
-            typescript
+            typescript,
           </li>
           <li>
             vue, nuxt

@@ -1,10 +1,10 @@
 <template>
   <div class="p-5">
     <section>
-      <h1 class="text-lg font-urbanist font-black">
+      <h3>
       Technologies
-      </h1>
-      <h2 class="text-md font-mono font-thin">
+      </h3>
+      <h2>
         <ul>
           <li>aws</li>
           <li>kubernetes</li>
@@ -18,8 +18,8 @@
           <li>prefect</li>
           <li>looker</li>
           <li>tableau</li>
-          </ul>
-        </h2>
+        </ul>
+      </h2>
     </section>
   </div>
 </template>
