@@ -1,5 +1,5 @@
 <template>
-  <div class="m-3 pt-5">
+  <div class="m-3 py-3">
     <div>
       <h3>
         Temple University

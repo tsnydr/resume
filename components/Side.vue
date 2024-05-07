@@ -1,7 +1,9 @@
 <template>
-  <div class="divide-dotted divide-y-2 divide-opacity-50 lg:divide-none">
+  <div class="">
     <Contact />
+    <hr class="lg:hidden border-dotted border-opacity-50 m-3"/>
     <Skills />
+    <hr class="lg:hidden border-dotted border-opacity-50 m-3"/>
     <Technologies />
   </div>
 </template>

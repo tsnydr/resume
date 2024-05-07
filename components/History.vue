@@ -7,11 +7,15 @@
       <template #end>present</template>
       <template #description>
         <HistoryDescription>
-          I am currently building a data discovery and lineage tool to catalog all of Block's data assets across various Kafka brokers, Snowflake, Databricks, etc.
-          By exporting assets to S3, ingesting to Elasticsearch, and exposing search via a simple API, I have enabled lighting fast search and cross-platform lineage traversal.
-          Cross-platform lineage enables propagation of semantic types and governance metadata from Topic to Data Warehouse to Dashboard.
+          I am currently building a comprehensive data discovery and lineage tool to catalog all of Block's data assets across various Kafka brokers, Snowflake, Databricks, Business Intelligence tools, and other platrorms.
         </HistoryDescription>
-        </template>
+        <HistoryDescription>
+          By exporting assets and edges to AWS S3 from their source platforms, ingesting to Elasticsearch, and exposing search via a simple REST API, I have made cross-platform lineage traversal and search  possible at lighting-fast speeds. Cross-platform lineage enables  propagation of semantic types and other governance metadata tags from Kafka Topic to Data Warehouse to Dashboard.
+        </HistoryDescription>
+        <HistoryDescription>
+          This app is built with Nuxt, a Vue meta-framework that makes Typescript on the the frontend and backend easy. I have built a number of apps in our data ecosystem using a similar tech stack, which allows for rapid prototyping of MVPs, and then painless deployment and scaling with Terraform and Kubernetes.
+        </HistoryDescription>
+      </template>
     </HistoryItem>
 
     <HistoryItem>
@@ -20,13 +24,13 @@
       <template #end>2023</template>
       <template #description>
         <HistoryDescription>
-          I built Squarewave, a dead-simple, user friendly, SQL only ETL tool to enable any data citizen to deploy SQL transformations.
-          Built with Python, Flask, and Vue on the frontend, Squarewave parses SQL, dynamically generates DAGs, and syncs them to Airflow.
-          Squarewave has hundreds of users and over 5,000 daily jobs, democtratizing data at enterpise scale.
+          I built Squarewave, a dead-simple, user-friendly, SQL-only ETL tool to allow any data citizen to deploy SQL transformations from a web browser. Built with Python, Flask, and Vue on the frontend, Squarewave parses SQL, dynamically generates DAGs from parsed sources and targets, and syncs them to Airflow. Squarewave has hundreds of users and over 5,000 daily jobs, democtratizing data at enterpise scale.
         </HistoryDescription>
         <HistoryDescription>
-          I migrated Squarewave, our Airflow clusters, and other apps from the datacenter to Block's kubernetes infrastructure in AWS.
-          Airflow notably is now running on 15 autoscaling clusters in production.
+          While Squarewave has democratized data transformations it also improves data quality with guard rails like automatic dependency status detection and Peer Review, encourages the adoption of software engineering principles like Unit Testing, and makes configuring alerting and anomaly detection as easy as flipping a switch.
+        </HistoryDescription>
+        <HistoryDescription>
+          I recently migrated Squarewave, our Airflow clusters, and other internal apps from the on-prem datacenter to Block's Kubernetes infrastructure in AWS. Airflow notably is now running on  15 autoscaling clusters in production.
         </HistoryDescription>
       </template>
     </HistoryItem>
@@ -37,11 +41,10 @@
       <template #end>2019</template>
       <template #description>
         <HistoryDescription>
-          I scaled Tableau to zero and Looker to over 3,000 weekly users and over 300 LookML devs. At the time this was the largest and most complex Looker instance, and most likely still is.
+          I scaled Tableau to zero and Looker to over 3,000 weekly users and more than 300 LookML devs. At the time this was the largest and most complex Looker instance, and most likely still is.
         </HistoryDescription>
         <HistoryDescription>
-          To facilitate migrating from Vertica to Snowflake I built a tool to automatically convert ~90% of SQL from one platform to the other.
-          Using the same tool and Liquid to enable dynamic LookML, we were able to have a nearly seemless transition.
+          To facilitate migrating from on-prem Vertica to Snowflake I built a tool to automatically convert ~90% of SQL from one platform to the other. Using the same tool and Liquid for dynamic LookML, we were able to have a nearly seemless transition that was transparent to most end-users.
           I presented this work on stage at Looker's Join conference in 2018.
         </HistoryDescription>
       </template>
