@@ -1,5 +1,5 @@
 <template>
-  <div class="m-3">
+  <div class="m-3 pt-3">
     <HistoryItem>
       <template #company>Block, Inc (fka Square)</template>
       <template #title>Tech Lead, Data Governance</template>
@@ -7,7 +7,7 @@
       <template #end>present</template>
       <template #description>
         <HistoryDescription>
-          I am currently building a data discovery and lineage tool to catalog all of Block's data assets across various Kafkas brokers, Snowflake, Databricks, etc.
+          I am currently building a data discovery and lineage tool to catalog all of Block's data assets across various Kafka brokers, Snowflake, Databricks, etc.
           By exporting assets to S3, ingesting to Elasticsearch, and exposing search via a simple API, I have enabled lighting fast search and cross-platform lineage traversal.
           Cross-platform lineage enables propagation of semantic types and governance metadata from Topic to Data Warehouse to Dashboard.
         </HistoryDescription>
