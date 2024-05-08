@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: oven/bun:1
+    steps:
+      - checkout
+      - run:
+          command: bun install --frozen-lockfile
+      - run:
+          command: bun test
+workflows:
+  build:
+    jobs:
+      - test
